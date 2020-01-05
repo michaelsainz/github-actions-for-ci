@@ -8,5 +8,7 @@ jobs:
     name: The first one
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2.0.0
     - name: Print working directory
       uses: ./.github/actions/CombineFunctionFiles
