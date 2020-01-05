@@ -1,0 +1,7 @@
+name: 'Consolidate Functions'
+description: 'Consolidates individual files into a single large file.'
+author: 'Michael Sainz <michaelsainz@live.com>'
+branding:
+  icon: 'code'
+  color: 'gray-dark'
+image: 'Dockerfile'
