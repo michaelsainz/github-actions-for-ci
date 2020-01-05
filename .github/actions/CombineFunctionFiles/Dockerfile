@@ -7,3 +7,5 @@ LABEL "repository"="https://github.com/michaelsainz/GHAdmin"
 LABEL "maintainer"="Michael Sainz <michaelsainz@github.com>"
 
 RUN echo $PWD
+RUN echo $PATH
+RUN echo ls -al
