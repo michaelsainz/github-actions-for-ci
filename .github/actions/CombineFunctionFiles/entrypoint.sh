@@ -1,3 +1,5 @@
 #!/bin/sh -l
 
-for i in *.ps1;do cat $i >> MyModule.psm1;done
+for i in ./src/*.ps1;do cat $i >> ./src/MyModule.psm1;done
+echo "Contents of PSM1:"
+cat ./src/MyModule.psm1
