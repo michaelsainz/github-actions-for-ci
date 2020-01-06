@@ -1,7 +1,3 @@
 #!/bin/sh -l
 
-echo Current PATH: $PATH
-echo ENV:
-printenv
-echo LS:
-ls -al /
+for i in *.ps1;do cat $i >> MyModule.psm1;done
