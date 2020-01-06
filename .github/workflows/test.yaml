@@ -12,3 +12,5 @@ jobs:
       uses: actions/checkout@v2.0.0
     - name: Print working directory
       uses: ./.github/actions/CombineFunctionFiles
+      with:
+        scriptpath: './scr/'

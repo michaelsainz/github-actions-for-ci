@@ -4,4 +4,13 @@ author: 'Michael Sainz <michaelsainz@live.com>'
 branding:
   icon: 'code'
   color: 'gray-dark'
-image: 'Dockerfile'
+inputs:
+  scriptpath:
+    description: 'Path to perform the concatenation'
+    required: true
+    default: './'
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
+    args:
+        - ${{ inputs.scriptpath }}
