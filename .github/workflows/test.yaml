@@ -13,4 +13,4 @@ jobs:
     - name: Print working directory
       uses: ./.github/actions/CombineFunctionFiles
       with:
-        scriptpath: './scr/'
+        scriptpath: './src/'
